@@ -28,9 +28,3 @@ python -m unittest [test_task1.py]
 
 ```
 ```
-
-This updated 
-
-README.md
-
- file provides a clear description of the task, example usage, method descriptions, and instructions for running the program and unit tests.
