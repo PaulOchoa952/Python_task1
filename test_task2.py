@@ -16,7 +16,7 @@ class TestCalculateTotalCostWithTax(unittest.TestCase):
         self.assertEqual(calculate_total_cost_with_tax(self.prices, items_bought, self.tax_rate), expected_total)
 
     def test_calculate_total_cost_with_missing_items(self):
-        items_bought = ['tshirt', 'socks', 'jewerly']  # 'grape' is not in prices
+        items_bought = ['tshirt', 'socks', 'jewerly']  # 'jewerly' is not in prices
         expected_total = (0.5 + 0.3) * 1.1  # Including 10% tax
         self.assertEqual(calculate_total_cost_with_tax(self.prices, items_bought, self.tax_rate), expected_total)
 
