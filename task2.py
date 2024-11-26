@@ -9,8 +9,10 @@ def calculate_total_cost_with_tax(prices: dict[str, float], items_bought: list[s
     :return: Total cost of the items bought including tax.
     """
     total_cost = 0.0
+    
     for item in items_bought:
         if item in prices:
             total_cost += prices[item]
     total_cost_with_tax = total_cost * (1 + tax_rate)
+
     return total_cost_with_tax
