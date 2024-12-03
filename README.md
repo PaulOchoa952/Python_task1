@@ -8,7 +8,7 @@ This task involves creating a function that takes an array of words and concaten
 ```python
 words = ["apple", "banana", "cherry", "date"]
 result = concatenate_nth_letters(words)
-# Output: "abce"
+# Output: "aaee"
 print(result)
 ```
 
