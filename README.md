@@ -1,6 +1,6 @@
 ## Python Tasks
 
-### Task 1: Create a Class Dictionary
+### Task 2: Create a Class Dictionary
 
 Using a given dictionary 
 of items and their costs and array specifing the items bougth,calculate the 
