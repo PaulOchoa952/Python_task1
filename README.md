@@ -1,5 +1,6 @@
 
 ### Task 3: Concatenate nth Letters from Each Word
+### Task 2: Create a Class Dictionary
 
 This task involves creating a function that takes an array of words and concatenates the nth letter from each word to construct a new word, where n is the position of the word in the list.
 
