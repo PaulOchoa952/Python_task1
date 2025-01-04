@@ -1,25 +1,19 @@
 ## Python Tasks
 
-### Task 1: Create a Class Dictionary
+### Task 2: Create a Class Dictionary
 
-This task involves creating a class `Dictionary` which can add words and their entries. The class provides methods to add new entries, print the dictionary, and look up entries by name.
+Using a given dictionary 
+of items and their costs and array specifing the items bougth,calculate the 
+total cost of the items bought plus a given tax rate
 
 #### Example Usage:
 
 ```python
-d = Dictionary()
-d.new_entry('apple', 'fruit that grows on trees')
-d.print_dict()
-# Output:
-# apple: fruit that grows on trees
-
-print(d.look('apple'))
-# Output:
-# fruit that grows on trees
-
-print(d.look('banana'))
-# Output:
-# Entry not found.
+costs={'socks':5,'shoes':60,'sweater':30}
+get_total(costs,['socks','shoes'],0.09)
+#-5+60=65
+#-65+.09 of 65=70.85
+# Output:70.85
 
 #### Running Unit Tests:
 
