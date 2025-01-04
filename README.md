@@ -1,17 +1,10 @@
 
+### Task 1: Create a class dictionary wich you can add words to and their entries.
+
 ### Task 3: Concatenate nth Letters from Each Word
-### Task 2: Create a Class Dictionary
 
-This task involves creating a function that takes an array of words and concatenates the nth letter from each word to construct a new word, where n is the position of the word in the list.
+### Task 2: Given a dictionary of items and their costs and an array specifying the items bought,calculate the total cost of the itmes plus a given tax
 
-#### Example Usage:
-
-```python
-words = ["apple", "banana", "cherry", "date"]
-result = concatenate_nth_letters(words)
-# Output: "aaee"
-print(result)
-```
 
 #### Running Unit Tests:
 
